@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+<body>
+    <form action="order.html">
+        <h1>Укажите своё имя</h1>
+        <input type="text" id="name" name="name" placeholder="Имя" required>
+        <h1>Пароль чтоб никто не уволок</h1>
+        <input type="text" id="password" name="password" placeholder="Пароль" required>
+
+
+        <h1>Меню</h1>
+        <input type="radio" name="Boorger" id="Shef" value="1" required>
+        <label for="Shef">Шефбургер</label>
+        <br><br><input type="radio" name="Boorger" id="Cheese" value="2">
+        <label for="Cheese">Чизбургер</label>
+        <br><br><input type="radio" name="Boorger" id="Box" value="3">
+        <label for="Box">Боксмастер</label>
+        
+        <h2>Введите свой телефон, если вы не заплатите, мы найдём вас и прокатим по ночной Самаре!</h2>
+        <input type="tel" id="phone" name="phone" required
+            pattern="+7\(d)3-\(d)2-\(d)2">
+
+        <h1>Соусы</h1>
+        <input type="radio" name="Sauce" id="Chees" value="Chees">
+        <label for="Chees">Сырный соус</label>
+        <br><br><input type="radio" name="Sauce" id="Island" value="Island">
+        <label for="Island">1000 остравов</label>
+        <br><br><input type="radio" name="Sauce" id="teriyaki" value="teriyaki">
+        <label for="teriyaki">Терияки</label>
+            
+        <br><br><input type="submit" value="Заказать">
+    </form> 
+</body>
+</html>
